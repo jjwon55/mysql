@@ -98,6 +98,7 @@ WHERE dept_no IS NOT NULL;
 -- 급여가 80000만 달러 이상이거나 입사일이 
 -- 1988년 이전인 사원번호를 조회하시오
 -- UNION : 두 쿼리를 합집합으로 조회 (중복제외)
+
 SELECT emp_no
 FROM salaries
 WHERE salary >= 80000
